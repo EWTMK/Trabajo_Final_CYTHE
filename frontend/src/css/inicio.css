@@ -1,0 +1,279 @@
+/* Importar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido */
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#titulo {
+    margin-bottom: 20px;
+}
+
+#sub {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#sub2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#sub2 p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#soldando,
+#madera,
+#categoriaimg,
+#categoriaimg2,
+#categoriaimg3 {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el footer */
+footer {
+    padding: 1rem;
+    background-color:  #999999;
+    text-align: center;
+    color: #666666;
+}
+
+/* Estilos para el hero carousel */
+#template-mo-zay-hero-carousel .carousel-indicators {
+    bottom: 20px;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators li {
+    background-color:  #999999;
+    border: 1px solid  #999999;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators .active {
+    background-color:  #999999;
+}
+
+#template-mo-zay-hero-carousel .carousel-control-prev,
+#template-mo-zay-hero-carousel .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-mo-zay-hero-carousel .carousel-control-prev i,
+#template-mo-zay-hero-carousel .carousel-control-next i {
+    color:  #999999;
+}
+
+/* Estilos para la sección de categorías */
+section.container.py-5 {
+    padding: 5rem 0;
+  
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+
+
+section.container.py-5 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+section.container.py-5 p {
+    font-size: 1.2rem;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row.text-center.pt-3 {
+    padding-top: 3rem;
+}
+
+.col-12.col-md-4.p-5.mt-3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-12.col-md-4.p-5.mt-3:hover {
+    transform: translateY(-5px);
+}
+
+.col-12.col-md-4.p-5.mt-3 img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h5.text-center.mt-3.mb-3,
+h2.h5.text-center.mt-3.mb-3 {
+    color: #333333;
+}
+
+.text-center .btn.btn-success {
+    background-color: #2dadd1;
+    border-color: #2dadd1;
+}
+
+/* Estilos para la sección de productos destacados */
+section.bg-light {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+section.bg-light h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+section.bg-light p {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.card.h-100 {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card.h-100:hover {
+    transform: translateY(-5px);
+}
+
+.card.h-100 img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card.h-100 ul.list-unstyled.d-flex.justify-content-between {
+    padding: 0;
+    margin: 0;
+}
+
+.card.h-100 ul.list-unstyled.d-flex.justify-content-between li {
+    list-style: none;
+}
+
+.card.h-100 ul.list-unstyled.d-flex.justify-content-between li i {
+    font-size: 1.2rem;
+    color: #ffc107;
+}
+
+.card.h-100 ul.list-unstyled.d-flex.justify-content-between li.text-muted.text-right {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.card.h-100 a.h2.text-decoration-none.text-dark {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+.card.h-100 p.card-text {
+    font-size: 1rem;
+    color: #666666;
+}
+
+.card.h-100 p.text-muted {
+    font-size: 0.9rem;
+    color: #999999;
+}
+
+/* Agrega cualquier otro estilo global o sustitución que necesites */
+
+
+
+
+h1#titulo-tienda {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1fb4f4; /* Color rojo (puedes cambiarlo al que desees) */
+    margin-bottom: 2rem;
+}
+
+
+section.template-mo-zay-hero-carousel {
+    padding: 5rem 0;
+    
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+
+section.template-mo-zay-hero-carousel h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+section.template-mo-zay-hero-carousel p {
+    font-size: 1.2rem;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.container.py-5 .container {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-12.col-md-4.p-5.mt-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+#row{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

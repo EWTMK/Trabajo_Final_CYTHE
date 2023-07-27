@@ -1,0 +1,25 @@
+.database-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.database-results h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.database-results p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.database-results .category-block {
+    background-color: #9DCFDD;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+

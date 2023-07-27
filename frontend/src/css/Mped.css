@@ -1,0 +1,50 @@
+/* Mped.css */
+
+.mped-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: whitesmoke;
+  }
+  
+  .mped-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mped-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mped-container th,
+  .mped-container td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .mped-container th {
+    background-color: #0077b3;
+    color: white;
+  }
+  
+  .mped-container button {
+    padding: 6px 12px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mped-container button:hover {
+    background-color: #b30000;
+  }
+  
+  .mped-container button:focus {
+    outline: none;
+  }
+  

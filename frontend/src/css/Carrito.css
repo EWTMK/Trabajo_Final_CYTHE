@@ -1,0 +1,177 @@
+
+.carrito-container {
+    padding: 20px;
+  }
+  
+
+  .carrito-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  .carrito-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .carrito-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .carrito-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .carrito-item button:hover {
+    background-color: darkred;
+  }
+  
+  
+.carrito-total {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: right;
+}
+
+.carrito-total h3 {
+  color: red; 
+}
+
+
+.carrito-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+
+.carrito-total {
+  background-color: #f2f2f2; 
+  padding: 10px;
+  text-align: right;
+  margin-top: 10px; 
+}
+
+.carrito-total h3 {
+  color: red; 
+}
+
+
+
+
+.carrito-container {
+  
+  text-align: center; 
+}
+
+.comprar-ahora-btn {
+  margin-top: 20px; 
+  background-color: green; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+.carrito-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px;
+}
+
+
+.carrito-items {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.carrito-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.carrito-item img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.carrito-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.carrito-item button:hover {
+  background-color: darkred;
+}
+
+
+.carrito-total {
+  background-color: #f2f2f2; /* Fondo gris */
+  padding: 10px;
+  text-align: right;
+  margin-top: 10px; /* Agregar un margen superior */
+}
+
+.carrito-total h3 {
+  color: red; /* Color rojo para el título "TOTAL" */
+}
+
+/* Estilos para el botón "Comprar ahora" */
+.comprar-ahora-btn {
+  margin-top: 20px; /* Espacio de separación desde la tabla total */
+  background-color: green; /* Color verde para el botón */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+  
+  
+  
+
+  
+
+
+
+
+

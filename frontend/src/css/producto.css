@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+header {
+    background: #9DCFDD;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+#search-button {
+    width: 100px;
+    height: 50px;
+    background-color: #9DCFDD;
+}
+
+#carrito {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#menu {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: #9DCFDD;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.contenedor{
+    margin-top: 20px;
+    display:contents;
+    margin-top: 20px;
+    text-align: flex;
+
+}
+
+
+/* Resto del CSS */
+
+.productos-container {
+    padding: 20px;
+}
+
+.productos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.producto-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.producto-item p {
+    margin-bottom: 10px;
+}
+
+.producto-item p:last-child {
+    margin-bottom: 0;
+}
+
+.producto-item button {
+    background-color: #1fb4f4;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.producto-item button:hover {
+    background-color: #1a88c7;
+}
+
+/* Resto del CSS */
+/* producto.css */
+
+/* Estilos para el botón "Agregar al carrito" con animación */
+.agregar-al-carrito-btn {
+    background-color: #9dcfdd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .agregar-al-carrito-btn:hover {
+    background-color: #6ca9b8;
+  }
+  
+  /* Estilos para el mensaje de confirmación */
+  .mensaje {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #6ca9b8;
+    color: white;
+    border-radius: 5px;
+    animation: fadeOut 2s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+
+
+
+  

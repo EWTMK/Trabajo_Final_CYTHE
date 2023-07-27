@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 80px; /* Asegura que el contenido no se superponga con el footer */
+}
+
+header {
+    background: #9DCFDD;
+    padding: 20px;
+    height: 122px; /* Establece la altura fija del encabezado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+#search-button {
+    margin-left: 50px;
+    margin-top: -5px;
+    width: 100px;
+    height: 50px;
+}
+
+#carrito {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#perfil {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70px;
+    height: auto;
+}
+
+#menu {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#Buscar {
+    margin-top: -5px;
+    width: 500px;
+    height: 50px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: #9DCFDD;
+    padding: 20px;
+    height: 80px; /* Establece la altura fija del footer */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+footer{
+    
+    background: #9DCFDD;
+    padding: 20px;
+    height: 80px; /* Establece la altura fija del encabezado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 38%;
+
+    
+}
+
+#formulario {
+    margin-left: 20px;
+    width: 600px; /* Ajusta el ancho según tus necesidades */
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#comprar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#mensaje {
+    margin-left: 1000px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -700px;
+}
+
+#textopago{
+    display: grid;
+    /*columnas*/
+    grid-template-columns: repeat(2, 10fr);
+    clear: both;
+    margin-top: 60px ;
+    text-align: center;
+    margin-left: 1050px;
+}
+
+#pago{
+    width: 20%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 1060px;
+    
+}
+
+
+
+
+
+
+

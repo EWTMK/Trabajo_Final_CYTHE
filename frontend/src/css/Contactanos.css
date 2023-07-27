@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: #000000;
+}
+
+h2{
+    color:#000000;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 80px; /* Asegura que el contenido no se superponga con el footer */
+}
+
+header {
+    background: #9DCFDD;
+    padding: 20px;
+    height: 122px; /* Establece la altura fija del encabezado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+#search-button {
+    margin-left: 50px;
+    margin-top: -5px;
+    width: 100px;
+    height: 50px;
+}
+
+#carrito {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#perfil {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70px;
+    height: auto;
+}
+
+#menu {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#Buscar {
+    margin-top: -5px;
+    width: 500px;
+    height: 50px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: #9DCFDD;
+    padding: 20px;
+    height: 80px; /* Establece la altura fija del footer */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+footer{
+    
+    background: #9DCFDD;
+    padding: 20px;
+    height: 80px; /* Establece la altura fija del encabezado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 38%;
+
+    
+}
+
+
+/* Tu código CSS existente */
+
+/* Estilos para la sección de contacto */
+
+body{
+    background-color: black;
+}
+
+#contact-form-section {
+    background-color: #000000;
+    padding: 20px;
+    width: 50%; /* Ajusta el ancho del formulario como desees */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#contact-section {
+    margin-top: 30px;
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#contact-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-description {
+    margin-bottom: 20px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Tu código CSS existente */
+
+
+#contact-section {
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-description {
+    margin-bottom: 20px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+#contact-form-section {
+    background-color: #000000;
+    padding: 20px;
+    width: 30%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea, input[type="email"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  /* Estilos para la sección de contacto */
+
+#contact-section,
+#contact-title,
+#contact-description {
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+#contact-form-section {
+    color: white; /* Cambia el color del texto en el formulario a blanco */
+}
+
+label {
+    color: white; /* Cambia el color de las etiquetas de los campos a blanco */
+}
+
+textarea,
+input[type="email"] {
+    color: black; /* Cambia el color del texto de los campos de entrada a negro */
+}
+
+button[type="submit"] {
+    color: white;
+  }
+  
+  
+
+
+
+
